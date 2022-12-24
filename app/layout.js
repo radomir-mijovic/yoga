@@ -1,11 +1,11 @@
-import Navbar from "./navbar";
+import NavbarInfo from "./navbar-info";
 
 export default function RootLayout({ children }) {
   return (
     <html>
       <head />
       <body>
-      <Navbar/>
+      <NavbarInfo/>
       {children}
       </body>
     </html>
