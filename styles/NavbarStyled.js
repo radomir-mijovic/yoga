@@ -14,7 +14,11 @@ export const NavbarStyled = styled.nav`
 export const LinkStyled = styled.div`
   display: flex;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 3.5rem;
   color: #a2a5a1;
   cursor: pointer;
-`;
+  
+  @media (max-width: 768px) {
+    font-size: 3rem;
+  }
+`

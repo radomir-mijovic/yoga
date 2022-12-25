@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const NavbarInfoStyles = styled.nav`
   background: #faf6f2;
   height: 3rem;
-  font-family: Helvetica Neue, sans-serif;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -16,7 +15,7 @@ export const NavbarInfoStyles = styled.nav`
     > h4,
     svg {
       color: #a2a5a1;
-      font-size: 1.4rem;
+      font-size: 1.8rem;
       font-weight: 500;
       padding: 0;
       margin: 0;
@@ -67,7 +66,7 @@ export const NavbarInfoStyles = styled.nav`
 
 export const StyledH4 = styled.h4`
   color: #a2a5a1;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   font-weight: 500;
   padding: 0;
   margin: 0;
