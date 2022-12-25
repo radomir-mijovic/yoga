@@ -1,6 +1,7 @@
 "use client";
 import "../i18n";
 import React from "react";
+import Link from "next/link"
 import { LinkStyled, NavbarStyled } from "../styles/NavbarStyled";
 import { useTranslation } from "react-i18next";
 import lotusImg from "../public/images/lotus.png"
@@ -14,11 +15,13 @@ const Navbar = () => {
       id: 1,
       title: t("navbar.yoga"),
       icon: lotusImg,
+      link: "/"
     },
     {
       id: 2,
       title: t("navbar.blog"),
       icon: blogImg,
+      link: "/blog"
     },
   ];
 
@@ -27,7 +30,9 @@ const Navbar = () => {
       {links.map((link) => {
         return (
           <LinkStyled key={link.id}>
-            {link.title}
+            <Link href={link.link}>
+              {link.title}
+            </Link>
           </LinkStyled>
         );
       })}
