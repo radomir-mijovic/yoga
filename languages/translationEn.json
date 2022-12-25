@@ -8,5 +8,13 @@
   "hero": {
     "title": "Keeping Your Mind in Best Position",
     "paragraph": "Experience the power of healing yoga. Balance your body and mind with our center"
+  },
+  "services": {
+    "title": "Our Classes",
+    "paragraph": "what we do",
+    "imgTitle": "Hatha Yoga",
+    "imgTitle2": "Meditation",
+    "imgTitle3": "Concentration",
+    "daysTime": "MON, WED, FRI"
   }
 }
