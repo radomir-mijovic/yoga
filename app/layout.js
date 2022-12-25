@@ -1,5 +1,6 @@
 import NavbarInfo from "./navbar-info";
 import Navbar from "./navbar";
+import "../styles/globals.css"
 
 import { Lobster } from '@next/font/google'
 

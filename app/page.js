@@ -1,14 +1,11 @@
-"use client"
-import React from 'react';
-import {HomePageGlobalStyles} from "../styles/HomePageStyles";
+"use client";
+import React from "react";
+import Hero from "./hero";
 
 const Page = () => {
-    return (
-        <>
-            <HomePageGlobalStyles/>
-            <h1>Home page</h1>
-        </>
-    );
+  return (
+      <Hero/>
+  );
 };
 
 export default Page;
