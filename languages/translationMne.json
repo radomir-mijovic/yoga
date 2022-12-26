@@ -6,8 +6,8 @@
     "blog": "Naš blog"
   },
   "hero": {
-    "title": "Keeping Your Mind in Best Position",
-    "paragraph": "Experience the power of healing yoga. Balance your body and mind with our center"
+    "title": "Održavajte Svoj Um u Najboljoj Formi",
+    "paragraph": "Iskusite moć isceljujuće joge. Uravnotežite svoje telo i um sa našim centrom"
   },
   "services": {
     "title": "",
@@ -16,5 +16,10 @@
     "imgTitle2": "Meditacija",
     "imgTitle3": "Koncentracija",
     "daysTime": "PON, SRI, PET"
+  },
+  "pricing": {
+    "titleRed": "NAŠ STUDIO JOGE",
+    "button": "Pozovite za više informacija",
+    "title": "Kursevi i Cijene"
   }
 }

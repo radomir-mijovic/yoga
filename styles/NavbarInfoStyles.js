@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import {motion} from "framer-motion";
+
 
 export const NavbarInfoStyles = styled.nav`
   background: #faf6f2;
@@ -24,7 +26,7 @@ export const NavbarInfoStyles = styled.nav`
     > h4 {
       cursor: pointer;
       :hover {
-        color: red;
+        color: #F66E72;
       }
     }
   }
@@ -39,7 +41,7 @@ export const NavbarInfoStyles = styled.nav`
       cursor: pointer;
       margin-left: 1rem;
       :hover {
-        color: red;
+        color: #F66E72;
       }
     }
   }
@@ -51,9 +53,13 @@ export const NavbarInfoStyles = styled.nav`
     > h4 {
       cursor: pointer;
       :hover {
-        color: red;
+        color: #F66E72;
       }
     }
+  }
+  
+  .active {
+    color: #F66E72;
   }
 
   @media (max-width: 768px) {
@@ -64,7 +70,7 @@ export const NavbarInfoStyles = styled.nav`
   }
 `;
 
-export const StyledH4 = styled.h4`
+export const StyledH4 = styled(motion.h4)`
   color: #a2a5a1;
   font-size: 1.8rem;
   font-weight: 500;

@@ -16,5 +16,10 @@
     "imgTitle2": "Meditation",
     "imgTitle3": "Concentration",
     "daysTime": "MON, WED, FRI"
+  },
+  "pricing": {
+    "titleRed": "OUR YOGA STUDIO",
+    "button": "Call for more information",
+    "title": "Services and Pricing"
   }
 }

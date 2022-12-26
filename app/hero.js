@@ -15,7 +15,7 @@ const Hero = () => {
                 alt="Hero yoga image"
                 quality={100}
                 style={{objectFit: "cover"}}
-                fill={true}
+                fill
             />
             <h1 className={styles.heroH1}>
                 {t("hero.title")}
