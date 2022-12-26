@@ -3,6 +3,7 @@ import React from "react";
 import Hero from "./hero";
 import Services from "./services";
 import Pricing from "./pricing";
+import SmallBanner from "./small-banner";
 
 const Page = () => {
     return (
@@ -10,6 +11,7 @@ const Page = () => {
             <Hero/>
             <Services/>
             <Pricing/>
+            <SmallBanner/>
         </>
     );
 };
