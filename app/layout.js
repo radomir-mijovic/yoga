@@ -1,8 +1,10 @@
+"use client"
 import NavbarInfo from "./navbar-info";
 import Navbar from "./navbar";
 import "../styles/globals.css"
 
 import { Lobster } from '@next/font/google'
+import {AppProvider} from "../context/app_context";
 
 const lobster = Lobster({
     weight: "400",
@@ -14,9 +16,11 @@ export default function RootLayout({ children }) {
     <html>
       <head />
       <body className={lobster.className}>
-        <NavbarInfo />
-        <Navbar />
-        {children}
+      <AppProvider>
+          <NavbarInfo />
+          <Navbar />
+          {children}
+      </AppProvider>
       </body>
     </html>
   );

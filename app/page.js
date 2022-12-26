@@ -4,6 +4,7 @@ import Hero from "./hero";
 import Services from "./services";
 import Pricing from "./pricing";
 import SmallBanner from "./small-banner";
+import ReasonSection from "./reason-section";
 
 const Page = () => {
     return (
@@ -12,6 +13,7 @@ const Page = () => {
             <Services/>
             <Pricing/>
             <SmallBanner/>
+            <ReasonSection/>
         </>
     );
 };
