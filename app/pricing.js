@@ -24,7 +24,7 @@ const Pricing = () => {
                 <h4 className={globalStyles.redH4}>
                     {t("pricing.titleRed")}
                 </h4>
-                <h2 className={globalStyles.globalH2}>
+                <h2 className={globalStyles.globalH2} style={{marginTop: 10}}>
                     {t("pricing.title")}
                 </h2>
                 <p className={styles.pricingP}>

@@ -1,0 +1,32 @@
+.navbarWrapper {
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  @media (max-width: 768px) {
+    justify-content: space-between;
+    padding: 0 1.5rem;
+  }
+}
+
+.linksWrapper {
+  display: flex;
+  gap: 2rem;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  font-size: clamp(2rem, 2vw, 2.4rem);
+  color: #a2a5a1;
+  cursor: pointer;
+
+  :hover {
+    color: #cca1a4;
+  }
+}
+
+.active {
+  color: #F66E72;
+}
