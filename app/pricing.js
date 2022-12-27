@@ -7,6 +7,7 @@ import {useTranslation} from "react-i18next";
 import {motion} from "framer-motion";
 
 import {Lobster} from '@next/font/google'
+import lotusImg from "../public/images/icons/lotus.svg";
 
 const lobster = Lobster({
     weight: "400",
@@ -19,6 +20,7 @@ const Pricing = () => {
     return (
         <section className={styles.sectionWrapper}>
             <div className={styles.infoWrapper}>
+                <Image src={lotusImg} width={30} height={30} alt="lotus yoga"/>
                 <h4 className={globalStyles.redH4}>
                     {t("pricing.titleRed")}
                 </h4>

@@ -5,6 +5,7 @@ import "../styles/globals.css"
 
 import { Lobster } from '@next/font/google'
 import {AppProvider} from "../context/app_context";
+import Footer from "./footer";
 
 const lobster = Lobster({
     weight: "400",
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
           <NavbarInfo />
           <Navbar />
           {children}
+          <Footer/>
       </AppProvider>
       </body>
     </html>
