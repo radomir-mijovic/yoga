@@ -1,0 +1,20 @@
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  min-height: 60vh;
+  width: 100%;
+}
+
+.imageWrapper {
+  position: relative;
+  height: 60rem;
+  width: 35rem;
+}
+
+.h1 {
+  font-size: clamp(2.5rem, 3.5vw, 4rem);
+  color: #F66E72;
+  margin: 2rem 0;
+}

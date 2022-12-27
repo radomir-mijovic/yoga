@@ -1,7 +1,9 @@
+"use client"
 import "../i18n";
 import React, {useState} from "react";
 import styles from "../styles/Navbar.module.scss"
 import Link from "next/link"
+import {usePathname} from "next/navigation";
 import { useTranslation } from "react-i18next";
 import lotusImg from "../public/images/icons/lotus.svg";
 import Image from "next/image";
@@ -9,7 +11,8 @@ import {motion} from "framer-motion";
 
 const Navbar = () => {
   const { t } = useTranslation();
-  const [isActive, setIsActive] = useState(1)
+  const path = usePathname()
+  const [isActive, setIsActive] = useState(path === "/" ? 1 : 2)
 
   const links = [
     {
