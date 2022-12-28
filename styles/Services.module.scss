@@ -14,8 +14,10 @@
 
 .infoWrapper {
   > h2 {
-    font-size: clamp(4rem, 5vw, 5rem);
+    font-size: clamp(3rem, 3vw, 3.5rem);
     text-align: center;
+    margin-top: 1rem;
+    color: #545554;
   }
 
   > h4 {
