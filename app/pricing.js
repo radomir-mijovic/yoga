@@ -27,23 +27,33 @@ const Pricing = () => {
                 <h2 className={globalStyles.globalH2} style={{marginTop: 10}}>
                     {t("pricing.title")}
                 </h2>
-                <p className={styles.pricingP}>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br/>
-                    Ad aut beatae commodi consequatur
-                    doloribus earum esse <br/> harum illo in ipsam,
-                    optio perspiciatis quam temporibus voluptatem?
+                <p className={`${styles.pricingP} ${globalStyles.marginBottom}`}>
+                    {t("pricing.text")}
                 </p>
                 <div>
                     <p className={styles.pricingP}>
-                        Standard Pricing Plan $35Per week
+                        {t("pricing.groupPlan")}
                     </p>
+                    <ul className={`${styles.links} ${globalStyles.marginBottom}`}>
+                        <li>
+                            45€ {t("pricing.perMonth")}
+                        </li>
+                        <li>
+                            3 {t("pricing.perWeek")}
+                        </li>
+                    </ul>
                     <p className={styles.pricingP}>
-                        Professional Pricing Plan $120Per week
+                        {t("pricing.privatePlan")}
                     </p>
-                    <p className={styles.pricingP}>
-                        Private Pricing Plan $250Per week
-                    </p>
+                    <ul className={`${styles.links} ${globalStyles.marginBottom}`}>
+                        <li>
+                            30€ {t("pricing.perSession")}
+                        </li>
+                    </ul>
                 </div>
+                <h4 className={styles.freeSession}>
+                    {t("pricing.firstSession")}
+                </h4>
                 <a href="tel:+382 (0)68 881 404">
                     <motion.button
                         whileTap={{scale: .95}}

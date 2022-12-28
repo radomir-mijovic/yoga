@@ -2,6 +2,8 @@ import React from 'react';
 import styles from "../styles/Reason.module.scss"
 import globalStyles from "../styles/Global.module.scss"
 import {useTranslation} from "react-i18next";
+import lotusImg from "../public/images/icons/lotus.svg";
+import Image from "next/image";
 
 const ReasonSection = () => {
     const {t} = useTranslation()
@@ -9,6 +11,7 @@ const ReasonSection = () => {
     return (
         <section className={styles.reasonWrapper}>
             <div>
+                <Image src={lotusImg} style={{width: "100%", textAlign: "center"}} width={40} height={40} alt="lotus yoga"/>
                 <h4 className={globalStyles.redH4} style={{textAlign: 'center'}}>
                     {t("pricing.titleRed")}
                 </h4>

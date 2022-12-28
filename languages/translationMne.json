@@ -21,11 +21,18 @@
     "titleRed": "NAŠ STUDIO JOGE",
     "button": "Pozovite za više informacija",
     "title": "Kursevi i Cijene",
+    "text": "Ako ste NOVI u studiju ili ste ga posetili kao gost, prvu sesiju možete isprobati besplatno. Ako vježbate dva puta nedeljno ili češće, grupni plan je najbolja opcija. Ukoliko želite da vezbate sami privatni plan je idealna opcija.",
+    "firstSession": "Prva sesija je besplatna!",
+    "groupPlan": "Grupni plan ",
+    "privatePlan": "Privatni plan",
+    "perMonth": "mjesecno",
+    "perWeek": "puta sedmicno",
+    "perSession": "po sesiji",
     "box": {
       "yogaTitle": "Joga Profesionalni Kursevi",
-      "yogaText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, sed?",
+      "yogaText": "Tijelo postiže što um veruje.",
       "meditationTitle": "Centar za Meditaciju",
-      "meditationText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, sed?"
+      "meditationText": "Samo dišite"
     }
   },
   "reason": {

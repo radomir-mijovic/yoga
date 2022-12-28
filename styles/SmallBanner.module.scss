@@ -29,12 +29,12 @@
 
 .whiteH4 {
   color: #fafafa;
-  font-size: 2rem;
+  font-size: clamp(1.3rem, 2vw, 1.5rem);
 }
 
 .whiteP {
   color: #fafafa;
-  font-size: clamp(1.3rem, 2vw, 1.5rem);
+  font-size: 2rem;
   font-weight: 200;
 }
 

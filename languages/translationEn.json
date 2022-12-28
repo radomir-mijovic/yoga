@@ -21,11 +21,18 @@
     "titleRed": "OUR YOGA STUDIO",
     "button": "Call for more information",
     "title": "Services and Pricing",
+    "text": "If you are NEW to the studio or have visited as a guest, You can try first session for free. If you practice twice a week or more often, Group pricing plan is best value. If you like to exercise yourself, a private plan is an ideal option.",
+    "firstSession": "First Session is Free!",
+    "groupPlan": "Group pricing plan",
+    "privatePlan": "Private pricing plan",
+    "perMonth": "per month",
+    "perWeek": "times per week",
+    "perSession": "per session",
     "box": {
       "yogaTitle": "Yoga Professional Courses",
-      "yogaText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, sed?",
+      "yogaText": "The body achieves what the mind believes.",
       "meditationTitle": "Meditation Center",
-      "meditationText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, sed?"
+      "meditationText": "Just breathe"
     }
   },
   "reason": {

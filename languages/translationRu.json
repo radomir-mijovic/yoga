@@ -21,11 +21,18 @@
     "titleRed": "НАША СТУДИЯ ЙОГИ",
     "button": "Позвоните для получения дополнительной информации",
     "title": "Услуги и цены",
+    "text": "Если вы НОВИЧОК в студии или посетили ее в качестве гостя, вы можете попробовать первое занятие бесплатно. Если вы тренируетесь два раза в неделю или чаще, лучше всего подойдет групповой тарифный план. Если вы любите заниматься спортом, индивидуальный план — идеальный вариант.",
+    "firstSession": "Первая сессия бесплатна!",
+    "groupPlan": "Групповой тарифный план",
+    "privatePlan": "Частный тарифный план",
+    "perMonth": "в месяц",
+    "perWeek": "в неделю",
+    "perSession": "за сеанс",
     "box": {
       "yogaTitle": "Профессиональные курсы йоги",
-      "yogaText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, sed?",
+      "yogaText": "Тело достигает того, во что верит разум.",
       "meditationTitle": "Центр медитации",
-      "meditationText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, sed?"
+      "meditationText": "Просто дышать"
     }
   },
   "reason": {

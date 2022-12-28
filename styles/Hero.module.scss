@@ -3,7 +3,6 @@
     height: 80vh;
     display: flex;
     flex-direction: column;
-    /*align-items: center;*/
     justify-content: center;
 }
 
@@ -46,6 +45,10 @@
 }
 
 @media (max-width: 768px) {
+    .heroContainer {
+        padding: 0 1.5rem;
+    }
+
     .heroH1 {
         font-size: 2.5rem;
     }

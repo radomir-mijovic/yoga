@@ -37,8 +37,22 @@
   color: #a2a5a1;
   font-size: clamp(1.4rem, 1.9vw, 1.7rem);
   font-family: Helvetica, sans-serif;
-  white-space: normal;
-  margin: .5rem;
+  margin: .5rem 0;
+  white-space: pre-line;
+}
+
+.links {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+  > li {
+    color: #a2a5a1;
+    font-size: clamp(1.4rem, 1.9vw, 1.7rem);
+    font-family: Helvetica, sans-serif;
+    white-space: normal;
+    margin-left: 3.5rem;
+  }
 }
 
 .pricingButton {
@@ -51,4 +65,10 @@
   width: 20rem;
   margin-top: 2rem;
   color: #F66E72;
+}
+
+.freeSession {
+  text-transform: uppercase;
+  font-size: clamp(1.3rem, 1.6vw, 1.7rem);
+  color: #545554;
 }
