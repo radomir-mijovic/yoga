@@ -37,3 +37,17 @@
   font-size: 1.2rem;
   cursor: pointer;
 }
+
+.locationWrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.locationH4 {
+  font-size: clamp(1rem, 1.2vw, 1.2rem);
+  font-family: Helvetica, sans-serif;
+  color: #a2a5a1;
+  margin-top: .5rem;
+  cursor: pointer;
+}

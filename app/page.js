@@ -5,6 +5,7 @@ import Services from "./services";
 import Pricing from "./pricing";
 import SmallBanner from "./small-banner";
 import ReasonSection from "./reason-section";
+import Instagram from "./instagram";
 
 const Page = () => {
     return (
@@ -14,6 +15,7 @@ const Page = () => {
             <Pricing/>
             <SmallBanner/>
             <ReasonSection/>
+            <Instagram/>
         </>
     );
 };
